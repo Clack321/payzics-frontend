@@ -6,6 +6,7 @@ import Login from './modules/authentication/Login';
 import SignUp from './modules/authentication/Signup';
 import NavBar from './modules/NavBar';
 import LandingPage from './modules/misc/LandingPage';
+import ForgotPassword from './modules/authentication/ForgotPassword';
 
 function App() {
   const theme = createTheme(themeOptions)
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={ <LandingPage /> } />
           <Route path="login" element={ <Login /> } />
           <Route path="signup" element={ <SignUp /> } />
+          <Route path="forgot-password" element={ <ForgotPassword /> } />
         </Routes>
         </ BrowserRouter>
       </div>

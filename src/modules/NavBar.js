@@ -34,7 +34,7 @@ export default function NavBar() {
           />
           <Tab
             label="Forgot Password"
-            value={ 'forgotpassword' }
+            value={ 'forgot-password' }
           />
           <Tab
             label="Landing Page"
