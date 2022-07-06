@@ -98,7 +98,7 @@ export default function Login() {
             <LockOpenOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h6">
-            Chekhub Connect Login
+            Payzics Login
           </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
